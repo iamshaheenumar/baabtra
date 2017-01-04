@@ -51,7 +51,7 @@ body {
 	float: left;
 	width: 50%
 	height:500px;
-	margin-left: 40px;
+	margin-left: 18px;
 	font-family: helvetica;
 	font-weight: bold;
 	font-size: 20px;
@@ -61,4 +61,9 @@ body {
 {
 	font-family: helvetica;
 
+}
+input
+{
+    display: block;
+    margin : 0 auto;
 }
