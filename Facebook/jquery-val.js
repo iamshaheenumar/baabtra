@@ -2,14 +2,21 @@ $(document).ready(function(){
 		$("#btnLogin").click(function(){
 			var username = $("#username").val();
 			var psd = $("#password").val();
-			if(username=="" || username== null || psd=="" || psd==null)
+			$.ajax(
 			{
-				alert("Fill in Credentials !");
-			}
-			else
-			{
-				alert("Successfull Loged In !");
-			}
+				'url':'http://services.trainees.baabtra.com/LoginService/login.php',
+				'DataType':'jsonp',
+				'data':{email:username,password:psd},
+				success:function(data)
+				{
+					$("#contact").html(data);
+				},
+				error:function()
+				{
+					alert("error");
+				}
+
+			});
 		});
 
 
