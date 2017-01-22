@@ -51,7 +51,7 @@ $(document).ready(function(){
 				}
 				else
 				{
-					if (age < 13) 
+					if (age < 13)
 					{
 						alert("Your age is less than 13");
 					}
@@ -63,5 +63,4 @@ $(document).ready(function(){
 			}
 			}
 		});
-	});		
-
+	});

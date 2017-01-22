@@ -1,0 +1,96 @@
+html {
+    height: 100%;
+}
+
+body {
+    height: 100%;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} 
+
+
+.grad{
+	height: fill;
+	background:linear-gradient(white, #D3D8E8);
+}
+
+
+.divLog{
+	background-color: #3b5998;
+	width: 100%;
+	height: 83px;
+}
+.divFb{
+	text-align: center;
+	float: left; 
+	font-family: Tahoma;
+	font-weight: bold;
+	font-size: 35px;
+	color: white;
+	height: 34px;
+
+	margin-top: 17px;
+}
+#username , #password{
+	height: 23px;
+	border-radius: 0px;
+	border-color: #1d2a5b;
+
+}
+.divLogIn label{
+	color:#fff;
+	font-weight: normal;
+	font-size: 12px;
+	padding-left: 1px;
+}
+.divLogIn a{
+	color: #9cb4d8;
+	font-size: 12px;
+}
+.divLogIn{
+	float: right;
+	width: 49%;
+	margin-top: 10px;
+}
+.btn-Login{
+	background-color: #4267b2;
+	color: #fff;
+	border-color: #29487d;
+	margin-top: 25px;
+	font-weight: bold;
+}
+.divConnectingPpl{
+	color: #0e385f;
+	float: left;
+	width: 50%
+	height:500px;
+	margin-left: 18px;
+	font-family: helvetica;
+	font-weight: bold;
+	font-size: 20px;
+	margin-top: 30px;
+}
+.divSignUp
+{
+	font-family: helvetica;
+
+}
+.divSignUp input[type=text],.divSignUp input[type=password]{
+	height: 39px;
+	padding-right: px;
+	padding-bottom: 5px;
+}
+.divSignUp input[type=text],.divSignUp input[type=password]::-webkit-input-placeholder{
+	font-size: 13.3333px;
+	font-weight: bold;
+}
+.divSignUp a{
+	color: blue;
+	font-size: 11px;
+	float: left;
+    margin-left: -20px;
+}
+select{
+	height: 30px;
+}
