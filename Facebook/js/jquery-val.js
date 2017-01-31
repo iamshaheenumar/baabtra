@@ -9,7 +9,9 @@ $(document).ready(function(){
 				'data':{email:username,password:psd},
 				success:function(data)
 				{
-					$("#contact").html(data);
+
+					obj = JSON.parse(data);
+					console.log(data);
 				},
 				error:function()
 				{
