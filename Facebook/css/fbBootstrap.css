@@ -7,7 +7,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-} 
+}
 
 
 .grad{
@@ -23,19 +23,26 @@ body {
 }
 .divFb{
 	text-align: center;
-	float: left; 
+	float: left;
 	font-family: Tahoma;
 	font-weight: bold;
 	font-size: 35px;
 	color: white;
 	height: 34px;
-
-	margin-top: 17px;
+  margin-top: 17px;
 }
-#username , #password{
-	height: 23px;
-	border-radius: 0px;
-	border-color: #1d2a5b;
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width:992px) {
+  #username , #password{
+  height: 23px;
+  border-radius: 0px;
+  border-color: #1d2a5b;
+}
+@media (min-width: 575px) and (max-width: 991px){
+  .sm-textboxes{
+    margin-top: 10px;
+  }
 
 }
 .divLogIn label{

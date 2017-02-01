@@ -12,6 +12,12 @@ $(document).ready(function(){
 
 					obj = JSON.parse(data);
 					console.log(data);
+					if (obj[0].ResponseCode=="200") {
+						window.location.replace("fb_Success.html");
+					}
+					else if (obj[0].ResponseCode=="500") {
+
+					}
 				},
 				error:function()
 				{

@@ -8,6 +8,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript"></script>
 	<link rel="stylesheet" type="text/css" href="css/fbBootstrap.css">
+	<script src="js/fblogin.js"></script>
 </head>
 <body class="grad">
 	<div class="container-fluid">
@@ -16,16 +17,16 @@
 				<div class="col-md-10 col-md-offset-1">
 					<div class="container-fluid">
 						<div class="row">
-							<div class="col-md-3 col-xs-12"><div class="divFb">facebook</div> </div>
-							<div class="col-md-7 col-md-offset-2 divLogIn">
+							<div class="col-md-3 col-xs-12 divFb">facebook</div>
+							<div class="col-md-7 col-md-offset-2 divLogIn col-xs-12 sm-textboxes">
 				    			<form name="login">
 				    				<div class="row">
 				    					<div class="col-md-4 col-md-offset-1 col-xs-12">
-				    						<label>Email or Phone</label>
+				    						<label class="hidden-xs hidden-sm">Email or Phone</label>
 				    						<input class="form-control" type="text" id="username">
 										</div>
 										<div class="col-md-4 col-xs-12">
-											<label>Password</label>
+											<label class="hidden-xs hidden-sm">Password</label>
 											<input class="form-control" type="pasword" id="password">
 											<a href="#">Forgotten account?</a>
 										</div>
@@ -55,7 +56,7 @@
 				<div class="container-fluid">
 
 						<h1 class="hidden-xs hidden-sm" style="font-weight: bold;" >Create an account</h1><br>
-						<p style="margin: -18px 0 10px; font-size: 19px; color: #000;">It's free and always will be.</p>
+						<p class="hidden-xs hidden-sm" style="margin: -18px 0 10px; font-size: 19px; color: #000;">It's free and always will be.</p>
 						<form class="divSignUp" name="SignUp" style="line-height: 10px;">
 							<div class="row form-inline hidden-xs hidden-sm">
 								<div style="padding-right: 8px;" class="col-md-4">
@@ -80,7 +81,7 @@
 									<input class="form-control " type="password" id="Password" placeholder="New Password"><br>
 								</div>
 							</div>
-							<p style="margin: -18px 0 10px; font-size: 19px; color: #000; margin-top:5px; margin-bottom: 15px;">Birthday</p>
+							<p class="hidden-xs hidden-sm" style="margin: -18px 0 10px; font-size: 19px; color: #000; margin-top:5px; margin-bottom: 15px;">Birthday</p>
 							<div class="row hidden-xs hidden-sm">
 								<div class="col-md-4">
 
